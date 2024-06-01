@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body{font-family:Arial,sans-serif;background:#f0f0f0;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}.container{background:#fff;width:360px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.1);overflow:hidden;text-align:center}.card{padding:20px;text-align:center}.card img{width:200px;margin:0 auto 20px;display:block}.card h1{font-size:20px;margin:0 0 10px;color:#d32f2f}.card p{margin:5px 0}.footer{background:#f9f9f9;padding:10px;border-top:1px solid #e0e0e0;display:flex;justify-content:space-around}.footer a{text-decoration:none;color:#3b5998}.buttons{display:flex;justify-content:space-around;padding:10px;border-top:1px solid #e0e0e0}.buttons button{background:#4f3b98;color:#fff;border:none;padding:10px 20px;border-radius:5px;cursor:pointer;margin:5px}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="threesa.jpg" alt="Threesa Infoway Logo">
+            <h1>Vikas Malu Bhoir</h1>
+            <p><b> Director</b></p>
+            <p>Address: 503 A-wing Dev Corpora</p>
+            <p>Cadbury junction Thane (W)</p>
+            <p>Maharashtra India 400601</p>
+            <p>Email: <a href="mailto:vikas@threesainfoway.net">vikas@threesainfoway.net</a></p>
+            <p>Website: <a href="http://threesainfoway.net">threesainfoway.net</a></p>
+            <p>Mob: +91 9768635000</p>
+        </div>
+        <div class="footer">
+            <a href="#">Facebook</a>
+            <a href="https://www.instagram.com/vikas.mb3?igsh=NWRlZ2VjenU0aHph">Instagram</a>
+            <a href="#">WhatsApp</a>
+        </div>
+        <div class="buttons">
+            <button>Save to Contact</button>
+            <button>Save to Mobile</button>
+        </div>
+    </div>
+</body>
+</html>
